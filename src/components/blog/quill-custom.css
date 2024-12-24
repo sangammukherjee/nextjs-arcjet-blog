@@ -1,0 +1,44 @@
+/* Remove default Quill borders */
+.ql-container {
+  border: none !important;
+}
+
+.ql-toolbar {
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Adjust font sizes and styles */
+.ql-editor {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding: 0 !important;
+}
+
+.ql-editor p {
+  margin-bottom: 1rem;
+}
+
+/* Hide default Quill toolbar */
+.ql-toolbar {
+  margin-bottom: 20px;
+}
+
+/* Custom toolbar styles */
+.custom-quill-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.custom-quill-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: #6b7280;
+}
+
+.custom-quill-toolbar button:hover {
+  color: #374151;
+}
